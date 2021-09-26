@@ -10,6 +10,16 @@
         <entry key="..\:/Projects/Android/Scorpions_15.Curtin/app/src/main/res/layout/activity_main.xml" value="0.12047101449275362" />
         <entry key="..\:/Projects/Android/Scorpions_15.Curtin/app/src/main/res/layout/activity_pets.xml" value="0.17572463768115942" />
         <entry key="..\:/Projects/Android/Scorpions_15.Curtin/app/src/main/res/menu/menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/drawable/ic_doctors.xml" value="0.287109375" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/drawable/selector.xml" value="0.287109375" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_doc_cal.xml" value="0.27151639344262296" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_doc_update.xml" value="0.26328125" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_doctors.xml" value="0.33" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_doctors_add.xml" value="0.25" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/layout/my_row_doc.xml" value="0.33" />
+        <entry key="..\:/Scorpions_15.Curtin/app/src/main/res/menu/my_doc_menu.xml" value="0.275" />
       </map>
     </option>
   </component>

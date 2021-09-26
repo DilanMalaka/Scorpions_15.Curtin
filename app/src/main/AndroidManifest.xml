@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Scorpions_15Curtin">
         <activity
+            android:name=".Doc_cal"
+            android:exported="true" />
+        <activity
+            android:name=".Doc_Update_Activity"
+            android:exported="true"
+            android:parentActivityName=".Doctors" />
+        <activity
+            android:name=".activity_doctors_add"
+            android:exported="true"
+            android:label="Add Doctors"
+            android:parentActivityName=".Doctors" />
+        <activity
             android:name=".About"
             android:exported="true" />
         <activity
