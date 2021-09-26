@@ -10,8 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Scorpions_15Curtin">
         <activity
+            android:name=".bmical"
+            android:exported="true"
+            android:label="Calculate BMI"
+            android:parentActivityName=".Care" />
+        <activity
             android:name=".Doc_cal"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Total Payment"
+            android:parentActivityName=".Doctors"/>
         <activity
             android:name=".Doc_Update_Activity"
             android:exported="true"
@@ -22,21 +29,33 @@
             android:label="Add Doctors"
             android:parentActivityName=".Doctors" />
         <activity
+            android:name=".UpdateCareActivity"
+            android:exported="true"
+            android:parentActivityName=".Care" />
+        <activity
+            android:name=".AddCareActivity"
+            android:exported="true"
+            android:label="Add Vaccination Details"
+            android:parentActivityName=".Care" />
+        <activity
             android:name=".About"
             android:exported="true" />
         <activity
-            android:name=".Doctors"
-            android:exported="true" />
-        <activity
             android:name=".Care"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Care" />
         <activity
             android:name=".Pets"
             android:exported="true"
             android:label="@string/title_activity_pets" />
         <activity
+            android:name=".Doctors"
+            android:exported="true"
+            android:label="Doctors" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Paws">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

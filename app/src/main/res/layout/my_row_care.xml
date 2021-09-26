@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/care_id_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pet_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Sally"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/care_id_txt"
+                app:layout_constraintTop_toTopOf="@+id/care_id_txt" />
+
+            <TextView
+                android:id="@+id/vaccine_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabies"
+                app:layout_constraintStart_toStartOf="@+id/pet_name_txt"
+                app:layout_constraintTop_toBottomOf="@+id/pet_name_txt" />
+
+            <TextView
+                android:id="@+id/vaccinate_date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23/9/2021"
+                app:layout_constraintStart_toStartOf="@+id/vaccine_name_txt"
+                app:layout_constraintTop_toBottomOf="@+id/vaccine_name_txt" />
+
+            <TextView
+                android:id="@+id/due_date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23/9/2025"
+                app:layout_constraintStart_toStartOf="@+id/vaccinate_date_txt"
+                app:layout_constraintTop_toBottomOf="@+id/vaccinate_date_txt" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
